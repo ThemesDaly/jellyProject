@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: TreeGradient
+  m_Shader: {fileID: 4800000, guid: a482c08abba0ce345aca5fe9e260c944, type: 3}
+  m_ShaderKeywords: _ENABLEAMBIENCE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _EnableAmbience: 1
+    - _GradientMix: 0
+    - _GradientPower: 1
+    m_Colors:
+    - _ColorBack: {r: 0.13725491, g: 0.24705882, b: 0.2509804, a: 1}
+    - _ColorBottom: {r: 0.13725491, g: 0.24705882, b: 0.2509804, a: 1}
+    - _ColorFront: {r: 0.13725491, g: 0.24705882, b: 0.2509804, a: 1}
+    - _ColorLeft: {r: 0.13725491, g: 0.24705882, b: 0.2509804, a: 1}
+    - _ColorRight: {r: 0.13725491, g: 0.24705882, b: 0.2509804, a: 1}
+    - _ColorTop: {r: 0.011764706, g: 0.11764706, b: 0.09803922, a: 1}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: FlowerGradient
+  m_Shader: {fileID: 4800000, guid: d2dd4053c383e684fa35ebd13a3e77f1, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - _EnableAmbience: 0
+    - _GradientMix: 0.25
+    - _GradientPower: 1
+    m_Colors:
+    - _ColorBack: {r: 0.12941177, g: 0.1882353, b: 0.34117648, a: 1}
+    - _ColorBottom: {r: 0.12941177, g: 0.1882353, b: 0.34117648, a: 1}
+    - _ColorFront: {r: 0.26666668, g: 0.29803923, b: 0.49019608, a: 1}
+    - _ColorLeft: {r: 0.12941177, g: 0.1882353, b: 0.34117648, a: 1}
+    - _ColorRight: {r: 0.12941177, g: 0.1882353, b: 0.34117648, a: 1}
+    - _ColorTop: {r: 0.9411765, g: 0.31764707, b: 0.40392157, a: 1}
